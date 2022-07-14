@@ -14,11 +14,14 @@ When looking at the school summary report, Thomas High School was reporting with
 By replacing the scores with NaN, we do not see any impact on Thomas High Schools when it comes to math or reading scores. Since we are only reporting NaN for Thomas High School 9th graders, the other schools and grade levels were also not impacted.
   * Impact on Math and Reading scores by grade: We do not see any impact with replacing with NaN.
   * Impact on Scores by school spending: We do not see any impact with spending on reading or math scores. 
-  * Impact on Scores by school size: We do not see any change in average math or reading scores. However, we do see a change with passing percentages of medium sized schools.
+  * Impact on Scores by school size: We do not see any change in average math or reading scores. However, we do see a change with passing percentages of medium sized schools but it is very small. 
   
 <img src="https://github.com/Ampickett/School_District_Analysis/blob/main/Images/SchoolTypes.png?raw=true"  width="700" height='300'> 
   
-  * Impact on Scores by school type: We do not see any changes on math or reading scores between charters and districts. Removing the 9th graders' scores does show a reduction in charter schools passing percentages. We see that the passing percentages dropped from 90 percent passing overall, down to 87%. Also, math passing % went from 94% to 90%, and reading passing % went from 97% down to 93%. Slight reductions did occur, but did not impact the big picture tremendously. 
+  * Impact on Scores by school type: We do not see any changes on math or reading scores between charters and districts. Removing the 9th graders' scores does show a reduction in charter schools passing percentages. This change is very small and does not impact the bigger picture by much. 
+
+## Summary
+Although we are replacing around 400+ 9th grade students scores from our dataset, it does not impact the bigger picture by much. We see less than a 0.1 percent decrease overall. The biggest impact is that overall percentage of Thomas High School dropped from being a top 5 school, to near the bottom of the rankings. If we were to report on these 9th graders with accurate data, it might change the entire analysis completely. 
   
 
 
